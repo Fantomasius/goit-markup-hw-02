@@ -1,12 +1,143 @@
 /*Палитра*/
-/* цвет основного текста #212121 /*
-/* вторичный цвет текста  #757575 */
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
 /* черный #000000 */
-/* белый #FFFFFF  */
+/* белый  #FFFFFF */
 /* акцент #2196F3 */
 /* вторичный цвет фона #F5F4FA */
 
+:root {
+	--primary-text-color: #757575;
+	--title-text-color: #212121;
+	--accent-color: #2196f3;
+	--primary-white-color: #ffffff;
+	--secondary-white-color: #f5f4fa;
+}
+
 body {
-	background-color: #ffffff;
-	color: #212121;
+	background-color: var(--primary-white-color);
+	color: var(--primary-text-color);
+}
+
+.list {
+	list-style: none;
+}
+
+/*Шапка сайта*/
+
+.logo {
+	color: #000000;
+}
+
+.logo-head {
+	color: var(--accent-color);
+}
+
+.nav .nav-link {
+	color: var(--title-text-color);
+}
+
+.nav .nav-link:hover,
+.nav .nav-link:focus {
+	color: var(--accent-color);
+}
+
+.nav .nav-link.current {
+	color: var(--accent-color);
+}
+
+.contact .link {
+	color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus {
+	color: var(--accent-color);
+}
+
+/*СТУДИЯ*/
+
+/*Герой*/
+
+.hero-title {
+	color: var(--primary-white-color);
+	/*временный цвет фона для видимости заголовка*/
+	background-color: rgba(47, 48, 58, 0.8);
+}
+
+/*Остальной main*/
+
+/*Section*/
+
+.section-title {
+	color: var(--title-text-color);
+}
+
+/*Преимущества*/
+
+.feature-list .title {
+	color: var(--title-text-color);
+}
+
+/*Услуги*/
+
+.services-list .services-title {
+	color: var(--primary-white-color);
+	/*временный цвет фона для видимости заголовка*/
+	background-color: rgba(47, 48, 58, 0.8);
+}
+
+/*Персонал*/
+
+.staff-list .title {
+	color: var(--title-text-color);
+}
+
+/*Клиенты*/
+
+/*Футер*/
+
+.footer {
+	background-color: #2f303a;
+}
+
+.office {
+	color: var(--primary-white-color);
+}
+
+.connection {
+	color: rgba(255, 255, 255, 0.6);
+}
+
+.act {
+	color: var(--primary-white-color);
+}
+
+/*Button*/
+
+.button {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
+}
+
+/*ПОРТФОЛИО*/
+
+.project {
+	color: var(--primary-text-color);
+}
+
+.description {
+	color: var(--primary-white-color);
+	/*временный цвет фона для видимости текста*/
+	background-color: rgba(33, 150, 243, 0.9);
+}
+
+.portfolio-button {
+	color: var(--title-text-color);
+	background-color: var(--secondary-white-color);
+}
+
+.portfolio-button:hover {
+	color: var(--primary-white-color);
+	background-color: var(--accent-color);
 }
