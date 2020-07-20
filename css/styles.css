@@ -35,6 +35,7 @@ body {
 	font-family: Raleway, sans-serif;
 	font-size: 26px;
 	line-height: 1.2;
+	text-decoration: none;
 }
 
 .logo-head {
@@ -50,6 +51,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 
 .nav .nav-link:hover,
@@ -68,6 +70,7 @@ body {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
+	text-decoration: none;
 }
 
 .contact .link:hover,
@@ -116,6 +119,13 @@ body {
 	text-transform: uppercase;
 }
 
+.feature-list {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+}
+
 /*Услуги*/
 
 .services-list .services-title {
@@ -141,6 +151,10 @@ body {
 	text-align: center;
 }
 
+.social {
+	text-decoration: none;
+}
+
 /*Клиенты*/
 
 /*Футер*/
@@ -155,6 +169,7 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	text-decoration: none;
 }
 
 .connection {
@@ -163,6 +178,11 @@ body {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	text-decoration: none;
+}
+
+.footer-socisal {
+	text-decoration: none;
 }
 
 .act {
@@ -187,6 +207,7 @@ body {
 	align-items: center;
 	text-align: center;
 	letter-spacing: 0.06em;
+	text-decoration: none;
 }
 
 /*ПОРТФОЛИО*/
@@ -201,6 +222,7 @@ body {
 	line-height: 1.63;
 	text-align: center;
 	letter-spacing: 0.03em;
+	text-decoration: none;
 }
 
 .portfolio-button:hover {
@@ -208,13 +230,25 @@ body {
 	background-color: var(--accent-color);
 }
 
-.project {
-	color: var(--primary-text-color);
+.portfolio-link {
+	text-decoration: none;
+}
+
+.portfolio-title {
+	color: var(--title-text-color);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
+}
+
+.project {
+	color: var(--primary-text-color);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.88;
 }
 
 .description {
